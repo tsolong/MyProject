@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.BLL", "TL.BLL\TL.BLL.csproj", "{453CE35E-EEC8-4F1C-9181-F1F7A6308911}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Common", "TL.Common\TL.Common.csproj", "{97F4C218-EEAD-4487-BDBA-3190D11AA616}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Config", "TL.Config\TL.Config.csproj", "{5A682511-6FD0-4940-916F-186A5E9A922A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Model", "TL.Model\TL.Model.csproj", "{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.SQLServerDAL", "TL.SQLServerDAL\TL.SQLServerDAL.csproj", "{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Web.UI", "TL.Web.UI\TL.Web.UI.csproj", "{C28CB47B-1198-4774-98F1-F34C1AB62E9C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Web", "TL.Web\TL.Web.csproj", "{D2BA0880-5BC4-4692-AD64-C7E8CBAAFA21}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.Web.SystemManage", "TL.Web.SystemManage\TL.Web.SystemManage.csproj", "{FAC88F34-0DBB-4D5A-BB70-DD427A031099}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredCK.FCKeditorV2.vs2005", "FCKeditor.Net_2.6.3\FredCK.FCKeditorV2.vs2005.csproj", "{F6F32704-97E0-4006-A474-5A9729C6B1B4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453CE35E-EEC8-4F1C-9181-F1F7A6308911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453CE35E-EEC8-4F1C-9181-F1F7A6308911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453CE35E-EEC8-4F1C-9181-F1F7A6308911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453CE35E-EEC8-4F1C-9181-F1F7A6308911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F4C218-EEAD-4487-BDBA-3190D11AA616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F4C218-EEAD-4487-BDBA-3190D11AA616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F4C218-EEAD-4487-BDBA-3190D11AA616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F4C218-EEAD-4487-BDBA-3190D11AA616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A682511-6FD0-4940-916F-186A5E9A922A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A682511-6FD0-4940-916F-186A5E9A922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A682511-6FD0-4940-916F-186A5E9A922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A682511-6FD0-4940-916F-186A5E9A922A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28CB47B-1198-4774-98F1-F34C1AB62E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28CB47B-1198-4774-98F1-F34C1AB62E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28CB47B-1198-4774-98F1-F34C1AB62E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28CB47B-1198-4774-98F1-F34C1AB62E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BA0880-5BC4-4692-AD64-C7E8CBAAFA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BA0880-5BC4-4692-AD64-C7E8CBAAFA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BA0880-5BC4-4692-AD64-C7E8CBAAFA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BA0880-5BC4-4692-AD64-C7E8CBAAFA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC88F34-0DBB-4D5A-BB70-DD427A031099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC88F34-0DBB-4D5A-BB70-DD427A031099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC88F34-0DBB-4D5A-BB70-DD427A031099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC88F34-0DBB-4D5A-BB70-DD427A031099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F32704-97E0-4006-A474-5A9729C6B1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F32704-97E0-4006-A474-5A9729C6B1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F32704-97E0-4006-A474-5A9729C6B1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F32704-97E0-4006-A474-5A9729C6B1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

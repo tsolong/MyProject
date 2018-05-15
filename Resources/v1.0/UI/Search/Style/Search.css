@@ -1,0 +1,84 @@
+﻿/****************************************
+Name: Search.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2009-05-13
+Description:
+	搜索CSS
+****************************************/
+.category{
+    *width:100%;
+}
+.category a:hover{
+    color:#ff6600;
+}
+.category span.sel{
+    font-weight:bold;
+    color:#ff6600;
+}
+.category li{
+    margin:0 0 0 0;
+    padding:0 0 0 80px;
+    position:relative;
+}
+.category li .t,.category li div{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.category li ul{
+    overflow:hidden;
+    *padding:0 0 10px 0;
+}
+.category li ul.sub{
+    margin:0 20px 10px 0;
+    padding:10px 0 0 10px;
+    *padding:10px 0 10px 10px;
+    border:1px solid #F39800;
+}
+.category li ul li{
+    float:left;
+    padding:0;
+    margin:0 10px 10px 0;
+    white-space:nowrap;
+}
+.category li ul.sub li{}
+.category li ul li a{}
+
+
+
+#shopList{
+}
+
+#shopList li{
+    width:100%;
+    clear:both;
+    margin:10px 0 0 0;
+    padding:0 0 10px 0;
+    border-bottom:1px dashed #ccc;
+}
+#shopList .photo{
+    width:100px;
+    height:100px;
+    /*border:1px solid green;*/
+    float:left;
+}
+#shopList .info{
+    margin:0 0 0 20px;
+    float:left;
+    clear:right;
+}
+#shopList li div dl dt,#shopList li div dl dd{
+    margin:5px 0 0 0;
+}
+#shopList li div dl{
+    /*border:1px solid blue;*/
+}
+#shopList li div dl dt{
+    float:left;
+    /*border:1px solid black;*/
+}
+#shopList li div dl dd{
+    /*border:1px solid red;*/
+}

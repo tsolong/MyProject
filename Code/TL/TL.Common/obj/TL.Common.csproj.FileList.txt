@@ -1,0 +1,5 @@
+bin\Debug\TL.Common.dll
+bin\Debug\TL.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TL.Common.dll
+obj\Debug\TL.Common.pdb

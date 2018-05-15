@@ -1,0 +1,65 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{453CE35E-EEC8-4F1C-9181-F1F7A6308911}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TL.BLL</RootNamespace>
+    <AssemblyName>TL.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="City\FoodSeries.cs" />
+    <Compile Include="City\Search\Search.cs" />
+    <Compile Include="City\Shop\Shop.cs" />
+    <Compile Include="City\Shop\Photo.cs" />
+    <Compile Include="Core\Member\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="City\Area.cs" />
+    <Compile Include="City\Shop\User.cs" />
+    <Compile Include="Core\Sys\Param.cs" />
+    <Compile Include="Core\Sys\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TL.Model\TL.Model.csproj">
+      <Project>{795A0A65-F8DD-4D7D-ADE7-175ABB55E855}</Project>
+      <Name>TL.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TL.SQLServerDAL\TL.SQLServerDAL.csproj">
+      <Project>{956CE748-50D9-445D-A3A1-64EF6F0CA1D1}</Project>
+      <Name>TL.SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

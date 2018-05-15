@@ -1,0 +1,41 @@
+﻿1.修正上传报“没有权限”脚本错误
+	FileWorkerBase.cs  118行
+2.禁用创建文件夹功能
+	Connector.cs  149-189行注释掉
+	browser.html	修改frameset的宽度
+	frmcreatefolder.html 注释掉一些html和js
+	frmfolders.html    127行注释掉
+3.修改快速上传文件的文件夹
+	config.ascx	加上不同文件类型对应的存放文件夹
+
+
+
+暂未做
+----------------------------------
+4.加用户登录验证才可使用上传文件
+5.上传文件的类型
+6.上传文件后以当前时间命名
+7.不同用户组的不同fck工具条
+8.fck的zIndex
+
+
+其它
+--------------------------------------
+删除上传的文件
+上传文件的大小
+
+
+漏洞
+--------------------------------------
+type漏洞2.6.3
+
+
+
+
+调用
+---------------------------------------
+<%@ Register Assembly="FredCK.FCKeditorV2" Namespace="FredCK.FCKeditorV2" TagPrefix="FCKeditorV2" %>
+<form action="" method="post" runat="server">
+	<FCKeditorV2:FCKeditor ID="MyEditor" runat="server"></FCKeditorV2:FCKeditor>
+	<button type="submit">submit</button>
+</form>

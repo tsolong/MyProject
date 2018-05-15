@@ -1,0 +1,63 @@
+﻿/****************************************
+Name: Page.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2009-02-25
+Description:
+	页面样式表
+****************************************/
+a{color:#2b7ccd; text-decoration:none;}
+a:hover{text-decoration:underline;}
+p{line-height:18px;}
+
+
+/*--全部页面容器--*/
+#container{
+	width:970px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+
+/*--头部--*/
+#header{height:75px; position:relative; /*border:1px solid red;*/}
+
+#header .logo{width:140px; height:75px;	margin:0 0 0 20px; font-size:60px; font-family:Arial;}
+
+#header .city{position:absolute; top:28px; left:200px; /*border:1px solid red;*/}
+#header .city .current{color:#333; font-size:20px; font-weight:bold;}
+
+#otherCity{position:relative; padding:0 0 10px 0; /*border:1px solid red;*/ cursor:pointer; color:#999;}
+#otherCity:hover ul,#otherCity.show ul{display:block;}
+#otherCity ul{cursor:auto; padding:0 0 10px 0; width:155px; display:none; position:absolute; top:23px; left:-73px; background:#fff; border:1px solid #999;}
+#otherCity ul li{cursor:auto; width:25px; margin:10px 0 0 10px; float:left; _display:inline;}
+
+#header .headerNav{position:absolute; top:30px; right:20px;}
+
+.splitLine{
+	height:13px;
+	background:url(Images/splitBG.gif) 0 bottom repeat-x;
+	/*border:1px solid red;*/
+}
+
+/*--导航--*/
+#nav{
+	
+}
+
+
+/*--底部--*/
+#footer{margin:30px 0 0 0; clear:both; border-top:1px solid #d1d7dc;}
+#footer a{color:#666;}
+#footer a:hover{color:#000; text-decoration:underline;}
+#footer .footerNav{margin:15px 0 10px 0; text-align:center; /*border:1px solid blue;*/}
+#footer .copyright{text-align:center; margin:0 0 15px 0; font-family:Arial; /*border:1px solid black;*/}
+
+
+/*--全站验证码--*/
+#ValidateImage{float:left; cursor:pointer;}
+#ValidateCode{width:35px; margin:0 0 0 10px;}
+
+
+/*--表单必填项（红色*号）--*/
+.required{color:#ff0000;}

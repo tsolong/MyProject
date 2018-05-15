@@ -1,0 +1,5 @@
+bin\TL.Web.UploadServices.dll
+bin\TL.Web.UploadServices.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TL.Web.UploadServices.dll
+obj\Debug\TL.Web.UploadServices.pdb

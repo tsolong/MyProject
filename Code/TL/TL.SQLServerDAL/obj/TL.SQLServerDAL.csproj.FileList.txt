@@ -1,0 +1,11 @@
+bin\Debug\TL.SQLServerDAL.dll
+bin\Debug\TL.SQLServerDAL.pdb
+bin\Debug\TL.Common.dll
+bin\Debug\TL.Config.dll
+bin\Debug\TL.Model.dll
+bin\Debug\TL.Common.pdb
+bin\Debug\TL.Config.pdb
+bin\Debug\TL.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TL.SQLServerDAL.dll
+obj\Debug\TL.SQLServerDAL.pdb

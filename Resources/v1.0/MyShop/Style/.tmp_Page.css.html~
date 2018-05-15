@@ -1,0 +1,174 @@
+<html><h1>The H1 tag looks like this</h1>
+<p>The paragraph tag after an H1 tag looks like this</p>
+<h2>The H2 tag looks like this</h2>
+<p>The paragraph tag after an H2 tag looks like this</p>
+<h3>The H1 tag looks like this</h3>
+<p>The paragraph tag after an H3 tag looks like this</p>
+<h4>The H4 tag looks like this</h4>
+<p>The paragraph tag after an H4 tag looks like this</p>
+<h5>The H5 tag looks like this</h5>
+<p>The paragraph tag after an H5 tag looks like this</p>
+<ol>
+<li><strong>This is a strong element in an ordered list</strong></li>
+<li><i>This is an italic element in an ordered list</i></li>
+<li><b>This is a bold element in an ordered list</b></li>
+<li><em>This is an emphasized element in an ordered list</em></li>
+<li>This is a regular element in an ordered list</li>
+</ol>
+<ul>
+<li><strong>This is a strong element in an unordered list</strong></li>
+<li><i>This is an italic element in an unordered list</i></li>
+<li><b>This is a bold element in an unordered list</b></li>
+<li><em>This is an emphasized element in an unordered list</em></li>
+<li>This is a regular element in an unordered list</li>
+</ul>
+<blockquote>The block quote element looks like this</blockquote>
+<pre>The pre element looks like this</pre>
+<code>The code element looks like this</code>
+<br/>
+<span>The span element looks like this</span>
+<br/>
+<a href="#">The anchor element looks like this</a>
+<br/>
+<br/>
+<div style="float:left;margin:20px;width:200px;">Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:400px;">Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:600px;">Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.</div><style>/****************************************
+Name: Page.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2008-12-10
+Description:
+	管理页面样式表
+****************************************/
+/*----公用----*/
+a{color:#278137;}
+button,.btn{width:82px; height:23px; line-height:23px; *line-height:24px; font-size:12px; border:0px; cursor:pointer; background:url(Images/btn.gif) no-repeat;}
+button:hover,.btn:hover{background:url(Images/btnHover.gif) no-repeat;}
+.txt{width:182px; *width:180px; height:23px; line-height:23px; padding:0px 5px; font-family:Arial; font-size:12px; letter-spacing:1px; border:1px solid #a1bca3;}
+.txtarea{width:350px; height:80px; border:1px solid #a1bca3; font-size:12px; overflow:auto; padding:5px;}
+.txt:hover,.txtarea:hover{background:#ffffd8; border:1px solid #99e300;}
+.chk{ border:0px solid #a1bca3;}
+.required{color:#ff0000;}
+
+
+/*--------------------登录页面--------------------*/
+#loginBody{background:url(Images/Login/loginBG.jpg);}
+#login{width:228px; margin:auto; padding:20px 0;}
+#login div{height:27px; margin:0 0 20px 0;}
+#login div label,#login input,#login button{margin:0 0 0 20px; float:left;}
+#login div label{margin:8px 0 0 0; letter-spacing:1px;}
+#login .last{margin:0;}
+
+#login button,.btn{width:82px; height:23px; line-height:23px; *line-height:24px; font-size:12px; border:0px; cursor:pointer; background:url(Images/btn.gif) no-repeat;}
+#login button:hover,.btn:hover{background:url(Images/btnHover.gif) no-repeat;}
+#login .txt{width:152px; *width:150px; height:25px; line-height:25px; padding:0px 5px; font-family:Arial; font-size:18px; letter-spacing:1px; border:1px solid #a1bca3;}
+#login .txt:hover{background:#ffffd8; border:1px solid #99e300;}
+
+
+/*--------------------管理页头部--------------------*/
+#header{height:70px; position:relative; font-family:Verdana; background:url(Images/Header/headerBG.jpg) 0 bottom repeat-x;}
+#header .logo{top:10px; left:23px; width:134px; height:42px; display:block; position:absolute; background-image:url(Images/Header/logo.jpg);}
+#header .sysUserInfo{top:15px; left:186px; position:absolute;}
+#header .sysUserInfo span{font-weight:bold; font-family:Verdana;}
+#nav{left:186px; bottom:4px; position:absolute;}
+#nav ul li{height:26px; line-height:27px; float:left; margin:0 4px 0 0; cursor:pointer; color:#608d45; background:url(Images/Header/navLeft.gif) left 1px no-repeat;}
+#nav ul li b{height:100%; float:left; margin:0 0 0 9px; *margin:0 0 0 10px; padding:0 10px 0 0;	letter-spacing:1px; background:url(Images/Header/navRight.gif) right 1px no-repeat;}
+#nav ul li.click{line-height:26px; background:url(Images/Header/navLeftClick.gif) left bottom no-repeat;}
+#nav ul li.click b{color:#fff; background:url(Images/Header/navRightClick.gif) right bottom no-repeat;}
+
+
+/*--------------------管理页左侧导航--------------------*/
+#subNav ul{display:none;}
+#subNav ul li a{display:block; height:28px; line-height:28px; font-weight:bold; text-indent:10px; text-decoration:none; color:#464646; background:url(Images/Left/navBG.png); letter-spacing:1px;}
+#subNav ul li.click a,#subNav ul li.click a:hover{background:url(Images/Left/navBGClick.png);}
+#subNav ul li a:hover{background:url(Images/Left/navBGHover.png);}
+
+
+/*--------------------管理页中间切换条--------------------*/
+#splitBody{background:url(Images/Split/splitBG.gif) repeat-y;}
+#split{top:50%;	left:50%; width:4px; height:27px; cursor:pointer; position:absolute; margin:-14px 0 0 -2px; background:url(Images/Split/splitHide.gif) no-repeat;}
+#split.show{background:url(Images/Split/splitShow.gif) no-repeat;}
+
+
+/*--------------------管理页底部--------------------*/
+#footer{padding:0 0 0 10px; height:30px; line-height:30px; font-family:Verdana,Arial; background:url(Images/Footer/footerBG.gif) 0 bottom repeat-x; border:0px solid red;}
+#todayInfo{position:absolute; top:0px; right:10px; line-height:30px; border:0px solid red;}
+
+/*--------------------以下是管理页右侧样式--------------------*/
+
+/*--提交验证信息列表--*/
+ul.checkMsg li{ list-style-type:disc; list-style-position:inside;}
+
+
+/*--右侧面板--*/
+.panel{margin:10px; border:1px solid #b1d09b;}
+.panel .content{background:#f7ffef; padding:10px;}
+
+
+/*--工具条--*/
+.toolBar{height:38px; background:url(Images/toolBarBG.gif) repeat-x;}
+.toolBar .currentMenu,.toolBar a{float:left; height:29px; line-height:29px;	margin:4px 0 0 5px;}
+.toolBar .currentMenu{text-indent:2em; color:#464646; font-weight:bold; background:url(Images/currentMenu.gif) no-repeat center left;}
+.toolBar a{display:block; text-decoration:none;}
+.toolBar a:hover{background:url(Images/toolBarMenuBG.jpg) no-repeat;}
+.toolBar a:hover b{background:url(Images/toolBarMenuBG.jpg) right top no-repeat;}
+.toolBar a b{margin:0 0 0 10px;	padding:0 10px 0 0;	display:block; font-weight:normal;}
+.toolBar a b span{display:block; padding:0 0 0 23px;}
+.toolBar a b span.add{background:url(Images/add.gif) center left no-repeat;}/*添加*/
+.toolBar a b span.del{background:url(Images/del.gif) center left no-repeat;}/*删除*/
+.toolBar a b span.changeSelect1{background:url(Images/changeSelect1.gif) center left no-repeat;}/*全选*/
+.toolBar a b span.changeSelect2{background:url(Images/changeSelect2.gif) center left no-repeat;}/*反选*/
+.toolBar a b span.changeSelect3{background:url(Images/changeSelect3.gif) center left no-repeat;}/*不选*/
+.toolBar a b span.refresh{background:url(Images/refresh.gif) center left no-repeat;}/*刷新*/
+.toolBar a b span.back{background:url(Images/back.gif) center left no-repeat;}/*返回*/
+
+
+/*--(添加 编辑 列表)表格样式--*/
+.addTab,.editTab,.listTab{border-collapse:collapse; width:100%;}
+.addTab tr td,.addTab tr th,.editTab tr td,.editTab tr th,.listTab tr td,.listTab tr th{padding:5px 10px; border:1px solid #b1d09b; background:#fff;}
+.addTab tr th,.editTab tr th{width:100px; text-align:left; font-weight:normal;}
+.addTab .rowMsg,.editTab .rowMsg{color:#666;}
+
+
+/*--数据列表表格--*/
+.listTab tr.hover td{background:#eef8e7;}
+.listTab tr.click td{background:#d8eacc;}
+.listTab tr th{color:#464646; background:url(Images/toolBarBG.gif) repeat-x; text-align:left;}
+.listTab tr td,.listTab tr th{padding:0 10px; height:33px;}
+
+
+/*--数据列表表格的操作列--*/
+.listTab .oper,.listTab .operHover,.listTab .operProhibit{width:26px; cursor:pointer;}
+.listTab .oper div,.listTab .operHover div{position:relative;}
+.listTab .oper div ul{display:none;}
+.listTab .operHover div ul{display:block; width:100px; top:-5px; right:30px; _right:40px; position:absolute; border:1px solid #b9e69e; background:#f4fbf1; padding:3px 0 3px 0; opacity:0.9; filter:alpha(opacity=90);}
+.listTab .operHover div ul li{}
+.listTab .operHover div ul li a{text-decoration:none; display:block; width:100%;}
+.listTab .operHover div ul li a:hover{}
+.listTab .operHover div ul li a div{cursor:pointer; height:20px; line-height:22px; margin:2px 5px; padding:0 5px; overflow:hidden;}
+.listTab .operHover div ul li a:hover div{height:18px; line-height:20px; padding:0 4px; color:#000; background:#fef5bc; border:1px solid #ffc467;}
+.listTab .operProhibit{background:url(Images/prohibit.gif) center center no-repeat;}
+.listTab .operProhibit div{background:url(Images/prohibit.gif) center center no-repeat;}
+
+
+/*--暂无数据--*/
+.noData{height:150px; border:1px solid #b1d09b; background:#fff url(Images/noData.gif) center center no-repeat;}
+
+
+/*--表单按钮块--*/
+.formBtn{text-align:center; margin:10px 0 0 0;}
+.formBtn button{margin:0 0 0 30px;}
+
+
+/*--分页条样式--*/
+.pageBar{margin:10px auto 0 auto; height:25px; clear:both;}
+.pageBar span,.pageBar a{display:block;	float:left;	padding:0 7px; height:23px; line-height:23px; margin:0 5px 0 0; background:#fff;}
+.pageBar span{border:1px solid #bbb;}
+.pageBar a{border:1px solid #ddd; cursor:pointer; text-decoration:none;}
+.pageBar a:hover{border:1px solid #278137;}
+.pageBar a.currentPage{color:#fff; cursor:auto; background:#278137; border:none; padding:0 8px; height:25px; line-height:25px;}
+.pageBar a.disabled{color:#ccc; cursor:auto;}
+.pageBar a.disabled:hover{border:1px solid #ddd;}
+.pageBar .txt{width:30px; margin:0 5px 0 0;}</style></html>

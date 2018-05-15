@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>网站策划文档</title>
+    <link type="text/css" href="doc.css" rel="stylesheet" />
+    <script language="javascript" src="doc.js"></script>
+</head>
+
+<body>
+
+	<div id="doc">
+    	<div id="print">打印</div>
+    	<div class="title">网站策划文档</div>
+        
+        <dl>
+            <dt>匿名用户</dt>
+            <dd>
+                <ul class="disc">
+                    <li>匿名操作</li>
+                    
+                    <ol class="decimal">
+                        <li>搜索</li>
+                        <li>点评店铺</li>
+                        <li>下载店铺信息</li>
+                    </ol>
+                </ul>
+            </dd>
+        </dl>
+        
+        <dl>
+            <dt>普通用户</dt>
+            <dd>
+                <ul class="disc">
+                    <li>填写注册信息</li>
+                    
+                    <ol class="decimal">
+                        <li>用户名<span class="explain">（全站唯一的用户名）</span></li>
+                        <li>密码</li>
+                        <li>邮箱地址<span class="explain">（全站唯一的邮箱地址，用于找回密码或其它功能使用）</span></li>
+                    </ol>
+                    
+                    <li>用户操作</li>
+                    
+                    <ol class="decimal">
+                        <li>搜索</li>
+                        <li>点评店铺</li>
+                        <li>订位
+                        	<div class="description">描述：查看历史订位信息、删除<span class="explain">（只是逻辑上的删除，不是物理上的删除，方便总系统管理订位信息）</span></div>
+                        </li>
+                        <li>发邮件邀请朋友们在某个酒店聚餐	
+                        	<div class=" description">描述：查看历史邀请聚餐信息，删除<span class="explain">（同订位）</span></div>
+                        </li>
+                        <li>收藏店铺</li>
+                        <li>下载店铺信息</li>
+                        <li>会员积分<span class="explain">（积分规则待定…）</span></li>
+                        
+                        <li>帐户设置</li>
+                        
+                        <ol class="alpha">
+                            <li>更改邮件地址</li>
+                            <li>更改登录密码<span class="explain">（需登录，并且输入正确的原始密码，才能设置新的密码）</span></li>
+                        </ol>
+                        
+                        <li>找回密码<span class="explain">（系统发送更改新密码的链接地址，通过此地址可以设置新的登录密码）</span></li>
+                    </ol>
+                </ul>
+            </dd>
+        </dl>
+        
+        <dl>
+            <dt>店铺用户<span class="explain">（上海、成都、北京…）</span></dt>
+            <dd>
+                <ul class="disc">
+                    <li>填写注册信息</li>
+                    
+                    <ol class="decimal">
+                    	<li>用户名<span class="explain">（城市唯一的用户名）</span></li>
+                        <li>密码</li>
+                        <li>邮箱地址<span class="explain">（城市唯一的邮箱地址，用于找回密码或其它功能使用）</span></li>
+                        <li>店铺名称<span class="explain">（可重复，由店铺地址来区分相同名称的店铺）</span></li>
+                        <li>店铺所在城市<span class="explain">（系统自动显示当前注册用户访问的城市）</span></li>
+                        <li>店铺所在地区、地点<span class="explain">（二级联动选择）</span></li>
+                        <li>店铺详细地址</li>
+                        <li>电话</li>
+                        <li>手机</li>
+                        <li>联系人</li>
+					</ol>
+
+                    <li>店铺用户操作</li>
+                    
+                    <ol class="decimal">
+                        <li>基本信息修改
+                            <div class="description">描述：未审核的店铺用户信息将不会被系统搜索，审核后将无法修改<span class="red"> “ 红色 ” </span>项</div>
+                        </li>
+                        
+                        <ol class="square">
+                            <li><span class="red">店铺名称</span></li>
+                            <li><span class="red">店铺所在地区、地点</span></li>
+                            <li><span class="red">店铺详细地址</span></li>
+                            <li>交通路线</li>
+                            <li>电话</li>
+                            <li>手机</li>
+                            <li>联系人</li>
+                        </ol>
+                        
+                        <li>店铺参数修改</li>
+                        
+                        <ol class="square">
+                            <li>包间</li>
+                            <li>星级</li>
+                            <li>人均消费<span class="explain">（下拉选择框 如:49-99，99-149）</span></li>
+                            <li>营业时间</li>
+                            <li>总座位数</li>
+                            <li>信用卡</li>
+                            <li>停车场</li>
+                            <li>设备服务</li>
+                            <li>备注</li>
+                        </ol>
+                        
+                        <li>店铺介绍</li>
+                        <li>店铺公告<span class="explain">（最新活动信息或其它内容）</span></li>
+                        <li>店铺照片<span class="explain">（最多10张）</span></li>
+                        <li>菜单</li>
+                        
+                        <ol class="alpha">
+                            <li>添加菜</li>
+                            	
+                            <ol class="square">
+                                <li>分类<span class="explain">（由系统统一指定菜系分类）</span></li>
+                                <li>菜名</li>
+                                <li>图片<span class="explain">（仅一张，系统生成大图与小图）</span></li>
+                                <li>价格</li>
+                            </ol>
+                                
+                            <li>删除菜<span class="explain">（并且要删除菜的图片）</span></li>
+                            <li>菜排序</li>
+                            <li>特色菜/推荐菜/招牌菜<span class="explain">（从菜单中设置）</span></li>
+                        </ol>
+                        
+                        <li>地图<span class="explain">（在地图上标注自己所在位置）</span></li>
+                        <li>查看订位</li>
+                        <li>查看邀请</li>
+                        <li>帐户设置</li>
+                        
+                        <ol class="alpha">
+                            <li>更改邮件地址</li>
+                            <li>更改登录密码<span class="explain">（需登录，并且输入正确的原始密码，才能设置新的密码）</span></li>
+                        </ol>
+                        
+                        <li>找回密码<span class="explain">（系统发送更改新密码的链接地址，通过此地址可以设置新的登录密码）</span></li>
+                    </ol>
+                </ul>
+            </dd>
+        </dl>
+        
+        <dl>
+            <dt>店铺展示</dt>
+            <dd>
+                <ul class="disc">
+                	<li>导航<span class="explain">（店铺首页、详细信息、店铺照片、菜单、地图、订位、聚会邀请、用户点评）</span></li>
+                    <li>店铺首页
+                    	<div class="description">描述：店铺介绍、店铺公告、特色菜<span class="explain">（在首页展示的栏目待定）</span></div>
+                    </li>
+                    <li>详细信息
+                    	<div class="description">描述：店铺基本信息与参数</div>
+                    </li>
+                    <li>店铺照片
+                    	<div class="description">描述：店铺照片<span class="explain">（小图列表，点小图看大图）</span></div>
+                    </li>
+                    <li>菜单
+                    	<div class="description">描述：将店铺所有的菜列表出来,可按菜单分类查看<span class="explain">（分类、菜名、图片、价格）</span></div>
+                    </li>
+                    <li>地图
+                    	<div class="description">描述：利用地图接口在地图上标注店铺所在位置</div>
+                    </li>
+                    <li>订位<span class="explain">（普通用户）</span>
+                    	<div class="description">描述：普通用户填写订位表单提交到总系统，由总系统管理人员以人工方式通知店铺管理人员与普通用户确认订位</div>
+                    </li>
+                    <li>聚会邀请<span class="explain">（普通用户）</span>
+                    	<div class="description">描述：普通用户填写邀请表单提交到总系统，由系统自动将邀请信息和店铺介绍发送到被邀请的用户邮箱中</div>
+                    </li>
+                    <li>用户点评<span class="explain">（匿名用户、普通用户）</span></li>
+                    
+                    <ol class="decimal">
+                        <li>点评选项<span class="explain">（服务好、质量好、环境好、性价比高）</span></li>
+                        <li>人均消费<span class="explain">（？元/人）</span></li>
+                        <li>点评内容<span class="explain">（纯文本）</span></li>
+                    </ol>
+                    
+                    <li>收藏店铺<span class="explain">（普通用户）</span></li>
+                    <li>下载店铺信息<span class="explain">（匿名用户、普通用户）</span></li>
+                    <li>人气<span class="explain">（按店铺的访问次数来计算）</span></li>
+                </ul>
+            </dd>
+        </dl>
+        
+        <dl>
+            <dt>搜索<span class="explain">（匿名用户、普通用户）（此模块待讨论）</span></dt>
+            <dd>
+            	<ul class=" disc">
+                	<li>店铺信息</li>
+                    
+                	<ol class="decimal">
+	                    <li>店铺名称<span class="explain">（根据店铺的名称搜索）</span></li>
+                        <li>店铺所在地区<span class="explain">（浦东新区、徐汇区…）</span></li>
+                        <li>店铺所在地点<span class="explain">（陆家嘴、人民广场…）</span></li>
+                        <li>店铺详细地址<span class="explain">（根据输入的地址搜索附近的店铺）</span></li>
+                    </ol>
+                    
+                    <li>店铺参数</li>
+                    
+                	<ol class="decimal">
+	                    <li>星级<span class="explain"></span></li>
+                        <li>人均消费<span class="explain"></span></li>
+                    </ol>
+                    
+                    <li>菜</li>
+                    
+                	<ol class="decimal">
+                        <li>菜系</li>
+                        <li>菜名</li>
+                        <li>价格</li>
+                        <li>特色菜/推荐菜/招牌菜</li>
+                    </ol>
+                    
+                    <li>人气</li>
+                    
+                    <li>地图</li>
+                    
+                    <ol>
+                    	<li>地区</li>
+                    </ol>
+                    
+                    
+                </ul>
+            </dd>
+        </dl>
+    
+    	<dl class="question">
+            <dt>问题列表</dt>
+            <dd>
+            	<ul class=" disc">
+                	<li>功能模块方面</li>
+                    
+                	<ol class="decimal">
+                        <li>搜索 > 从地图上检索店铺</li>
+                        <li>搜索 > 多条件以及复杂条件的搜索</li>
+                        <li>明确菜系分类</li>
+                        <li>店铺菜单页面列出店铺菜系分类问题</li>
+                    </ol>
+                    
+                    <li>技术方面</li>
+                    
+                    <ol class="decimal">
+                        <li>跨站登录</li>
+                        <li>上传图片到远程服务器以及删除</li>
+                        <li>地图接口的应用</li>
+                        <li>伪静态页面技术</li>
+                        <li>开发语言和数据库的选择</li>
+                        <li>网站性能与安全</li>
+                    </ol>
+                    
+                    <li>城市方面</li>
+                    
+                    <ol class="decimal">
+                    	<li>切换城市</li>
+                        <li>普通用户登录后切换到其它城市不用再登录</li>
+                        <li>店铺用户所属城市</li>
+                        <li>店铺用户管理时切换到其它城市</li>
+                        <li>不同城市的菜系分类</li>
+                    </ol>
+                    
+                    <li>后续增加功能</li>
+                    
+                    <ol class="decimal">
+                        <li>店铺厨师</li>
+                        <li>优惠券</li>
+                    </ol>
+                </ul>
+            </dd>
+        </dl>
+        
+	</div>
+    
+    <div class="updating">Last Updating 2009-03-03</div>
+    
+</body>
+</html>

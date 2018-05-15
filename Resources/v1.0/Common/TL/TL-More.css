@@ -1,0 +1,109 @@
+﻿/****************************************
+Name: TL-More.css
+Version: 1.0
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2008-12-01
+Description:
+	JS效果库样式表
+****************************************/
+/*--loading--*/
+#loading{position:absolute; line-height:18px; padding:20px 20px 20px 80px; font-size:14px; color:#464646;}
+#loading.default{border:1px solid #5bc514; background:#fff url(Images/loading/default/loading.gif) no-repeat 20px center;}
+#loading.green{border:1px solid #34a761; background:#fff url(Images/loading/green/loading.gif) no-repeat 20px center;}
+#loading.blue{border:1px solid #2b66a8; background:#fff url(Images/loading/blue/loading.gif) no-repeat 20px center;}
+#loading.purple{border:1px solid #b997cb; background:#fff url(Images/loading/purple/loading.gif) no-repeat 20px center;}
+#loading.red{border:1px solid #bb3232; background:#fff url(Images/loading/red/loading.gif) no-repeat 20px center;}
+/*--loading--*/
+
+/*--win--*/
+/*msg图标*/
+.win .msg1{background:url(Images/win/msg1.gif) no-repeat 20px center;}
+.win .msg2{background:url(Images/win/msg2.gif) no-repeat 20px center;}
+.win .msg3{background:url(Images/win/msg3.gif) no-repeat 20px center;}
+.win .msg4{background:url(Images/win/msg4.gif) no-repeat 20px center;}
+.win .msg5{background:url(Images/win/msg5.gif) no-repeat 20px center;}
+/*win*/
+.win{position:absolute;font-size:12px;}
+.winTop{height:27px; color:#FFF;}
+.winTop b{display:block; height:27px; line-height:27px; margin:0 0 0 10px; letter-spacing:1px; font-family:Verdana;}
+.winTop b a{width:11px; height:13px; top:7px; cursor:pointer; position:absolute;}
+.winMin{right:30px;}
+.winMax{right:30px; display:none;}
+.winClose{right:10px;}
+.winMiddle{overflow:auto; background:#fff;}
+.winMsg{color:#464646; line-height:18px; padding:30px 30px 30px 70px; font-size:14px; min-height:13px; _height:13px;}
+.winControl{text-align:right; padding:15px 0;}
+.winBtn,.winBtnHover{width:80px; height:22px; margin:0 10px; padding:0; cursor:pointer; font-size:12px; line-height:20px; color:#333;}
+/*default*/
+.win.default .winTop{background:url(Images/win/default/winTopLeft.gif) no-repeat;}
+.win.default .winTop b{background:url(Images/win/default/winTopRight.gif) no-repeat right top;}
+.win.default .winMin{background:url(Images/win/default/winMin.gif) no-repeat;}
+.win.default .winMin:hover{background:url(Images/win/default/winMinHover.gif) no-repeat;}
+.win.default .winMax{background:url(Images/win/default/winMax.gif) no-repeat;}
+.win.default .winMax:hover{background:url(Images/win/default/winMaxHover.gif) no-repeat;}
+.win.default .winClose{background:url(Images/win/default/winClose.gif) no-repeat;}
+.win.default .winClose:hover{background:url(Images/win/default/winCloseHover.gif) no-repeat;}
+.win.default .winMiddle{border:1px solid #5bc514; border-top:none;}
+.win.default .winMsg a{color:#5bc514;}
+.win.default .winControl{border-top:1px solid #d9f0cd; background:#f6ffee;}
+.win.default .winBtn{border:1px solid #84a567; background:url(Images/win/default/winBtn.gif) repeat-x left bottom;}
+.win.default .winBtnHover{border:1px solid #84a567; background:url(Images/win/default/winBtnHover.gif) repeat-x left bottom;}
+/*green*/
+.win.green .winTop{background:url(Images/win/green/winTopLeft.gif) no-repeat;}
+.win.green .winTop b{background:url(Images/win/green/winTopRight.gif) no-repeat right top;}
+.win.green .winMin{background:url(Images/win/green/winMin.gif) no-repeat;}
+.win.green .winMin:hover{background:url(Images/win/green/winMinHover.gif) no-repeat;}
+.win.green .winMax{background:url(Images/win/green/winMax.gif) no-repeat;}
+.win.green .winMax:hover{background:url(Images/win/green/winMaxHover.gif) no-repeat;}
+.win.green .winClose{background:url(Images/win/green/winClose.gif) no-repeat;}
+.win.green .winClose:hover{background:url(Images/win/green/winCloseHover.gif) no-repeat;}
+.win.green .winMiddle{border:1px solid #34a761; border-top:none;}
+.win.green .winMsg a{color:#34a761;}
+.win.green .winControl{border-top:1px solid #afd7c8; background:#eaf6ef;}
+.win.green .winBtn{border:1px solid #33a35e; background:url(Images/win/green/winBtn.gif) repeat-x left bottom;}
+.win.green .winBtnHover{border:1px solid #33a35e; background:url(Images/win/green/winBtnHover.gif) repeat-x left bottom;}
+/*blue*/
+.win.blue .winTop{background:url(Images/win/blue/winTopLeft.gif) no-repeat;}
+.win.blue .winTop b{background:url(Images/win/blue/winTopRight.gif) no-repeat right top;}
+.win.blue .winMin{background:url(Images/win/blue/winMin.gif) no-repeat;}
+.win.blue .winMin:hover{background:url(Images/win/blue/winMinHover.gif) no-repeat;}
+.win.blue .winMax{background:url(Images/win/blue/winMax.gif) no-repeat;}
+.win.blue .winMax:hover{background:url(Images/win/blue/winMaxHover.gif) no-repeat;}
+.win.blue .winClose{background:url(Images/win/blue/winClose.gif) no-repeat;}
+.win.blue .winClose:hover{background:url(Images/win/blue/winCloseHover.gif) no-repeat;}
+.win.blue .winMiddle{border:1px solid #2b66a8; border-top:none;}
+.win.blue .winMsg a{color:#2b66a8;}
+.win.blue .winControl{border-top:1px solid #c4dde9; background:#eef7fe;}
+.win.blue .winBtn{border:1px solid #4c9dc5; background:url(Images/win/blue/winBtn.gif) repeat-x left bottom;}
+.win.blue .winBtnHover{border:1px solid #4c9dc5; background:url(Images/win/blue/winBtnHover.gif) repeat-x left bottom;}
+/*purple*/
+.win.purple .winTop{background:url(Images/win/purple/winTopLeft.gif) no-repeat;}
+.win.purple .winTop b{background:url(Images/win/purple/winTopRight.gif) no-repeat right top;}
+.win.purple .winMin{background:url(Images/win/purple/winMin.gif) no-repeat;}
+.win.purple .winMin:hover{background:url(Images/win/purple/winMinHover.gif) no-repeat;}
+.win.purple .winMax{background:url(Images/win/purple/winMax.gif) no-repeat;}
+.win.purple .winMax:hover{background:url(Images/win/purple/winMaxHover.gif) no-repeat;}
+.win.purple .winClose{background:url(Images/win/purple/winClose.gif) no-repeat;}
+.win.purple .winClose:hover{background:url(Images/win/purple/winCloseHover.gif) no-repeat;}
+.win.purple .winMiddle{border:1px solid #b997cb; border-top:none;}
+.win.purple .winMsg a{color:#b997cb;}
+.win.purple .winControl{border-top:1px solid #e9dbf1; background:#f8f0fb;}
+.win.purple .winBtn{border:1px solid #b58bcc; background:url(Images/win/purple/winBtn.gif) repeat-x left bottom;}
+.win.purple .winBtnHover{border:1px solid #b58bcc; background:url(Images/win/purple/winBtnHover.gif) repeat-x left bottom;}
+/*red*/
+.win.red .winTop{background:url(Images/win/red/winTopLeft.gif) no-repeat;}
+.win.red .winTop b{background:url(Images/win/red/winTopRight.gif) no-repeat right top;}
+.win.red .winMin{background:url(Images/win/red/winMin.gif) no-repeat;}
+.win.red .winMin:hover{background:url(Images/win/red/winMinHover.gif) no-repeat;}
+.win.red .winMax{background:url(Images/win/red/winMax.gif) no-repeat;}
+.win.red .winMax:hover{background:url(Images/win/red/winMaxHover.gif) no-repeat;}
+.win.red .winClose{background:url(Images/win/red/winClose.gif) no-repeat;}
+.win.red .winClose:hover{background:url(Images/win/red/winCloseHover.gif) no-repeat;}
+.win.red .winMiddle{border:1px solid #bb3232; border-top:none;}
+.win.red .winMsg a{color:#bb3232;}
+.win.red .winControl{border-top:1px solid #e0cbc5; background:#faf9f6;}
+.win.red .winBtn{border:1px solid #c1855d; background:url(Images/win/red/winBtn.gif) repeat-x left bottom;}
+.win.red .winBtnHover{border:1px solid #c1855d; background:url(Images/win/red/winBtnHover.gif) repeat-x left bottom;}
+/*--win--*/

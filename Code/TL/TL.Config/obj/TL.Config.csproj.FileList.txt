@@ -1,0 +1,7 @@
+bin\Debug\TL.Config.dll
+bin\Debug\TL.Config.pdb
+bin\Debug\TL.Model.dll
+bin\Debug\TL.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TL.Config.dll
+obj\Debug\TL.Config.pdb

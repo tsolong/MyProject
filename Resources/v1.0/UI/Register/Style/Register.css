@@ -1,0 +1,52 @@
+﻿/****************************************
+Name: Register.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2009-02-19
+Description:
+	用户注册CSS
+****************************************/
+
+/*文本框*/
+.txt{width:182px; *width:180px; height:23px; line-height:23px; padding:0px 5px; font-family:Arial; font-size:12px; letter-spacing:1px; border:1px solid #eed072;}
+.txt.hover{background:#ffffd8; border:1px solid #99e300;}
+
+
+/*--注册友好提示--*/
+#tip{position:absolute;	z-index:5000;}
+#tip .top{padding:0 0 0 20px; background:url(Images/tipTopBG.gif) no-repeat;}
+#tip .top .info{padding:15px 15px 10px 0; background:url(Images/tipTopBG.gif) right 0 no-repeat;}
+#tip .bottom{height:5px; padding:0 0 0 10px; background:url(Images/tipBottomBG.gif) 0 bottom no-repeat; _margin:-7px 0 0 0;}
+#tip .bottom span{display:block; height:5px; background:url(Images/tipBottomBG.gif) right bottom no-repeat;}
+
+
+/*--头部提示消息--*/
+.topMessage{/*border:1px solid red;*/}
+.topMessage .top{height:12px; padding:0 0 0 12px; background:url(Images/topMessageLeftBG.gif) no-repeat;}
+.topMessage .top span{display:block; height:12px; background:url(Images/topMessageRightBG.gif) right 0 no-repeat;}
+.topMessage .bottom{height:36px; padding:0 0 0 76px; background:url(Images/topMessageLeftBG.gif) 0 bottom no-repeat;}
+.topMessage .bottom span{display:block; height:36px; background:url(Images/topMessageRightBG.gif) right bottom no-repeat;}
+.topMessage .msg{color:#333; padding:0 12px; border:1px solid #ffe35e; border-top:none; border-bottom:none;	background:#fffed7;}
+
+
+/*--注册表单--*/
+#register{
+	width:600px;
+	/*margin:30px auto 0 auto;*/
+	margin:30px 0 0 50px;
+	/*border:1px solid red;*/
+}
+#register .topMessage{}
+#register table{margin:10px 0 0 0; width:100%; border-collapse:collapse;}
+#register table th,#register table td{text-align:left; padding:15px 10px;/* border:1px solid red;*/}
+#register table th{font-weight:normal;}
+#register table label{margin:0 0 0 10px;}
+#register .splitLine{padding:0; border:1px solid red;}
+#register .splitLine div{/*border:1px solid red;*/ margin:10px 0; text-indent:10px; line-height:35px; font-size:16px; font-weight:bold;}
+#register table .registerInfo{width:250px;}
+#register table .right,#register table .error,#register table .loading{height:16px;	line-height:16px; text-indent:2em;}
+#register table .right{background:url(Images/right.gif) 0 center no-repeat;}
+#register table .error{color:#ff0000; background:url(Images/error.gif) 0 center no-repeat;}
+#register table .loading{background:url(Images/loading.gif) 0 center no-repeat;}
+#register button.submit{margin:20px 0 0 40px; cursor:pointer; border:none; background:url(Images/submit.gif); width:236px; height:34px;}
